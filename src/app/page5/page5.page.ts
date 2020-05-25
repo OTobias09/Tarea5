@@ -15,7 +15,7 @@ export class Page5Page implements OnInit {
   Sonido()
   {
       let Sound=new Audio();
-      Sound.src="assets/SSBU.mp3";
+      Sound.src="assets/SSBU_S.mp3";
       Sound.load();
       Sound.play();
   }
